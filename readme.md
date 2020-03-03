@@ -1,6 +1,21 @@
+Название сайта: **Кофеско** [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+
 ------------
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/kofesko-v2/index.html
+
+------------
+
+**Превью сайта:**
+
+------------
+
+![Preview](preview-image.jpg "Preview")
+
+------------
+
+Сделано с ❤️ в [WEB-ELITIT.RU](https://www.web-elitit.ru "Web-elitit.ru")
+> Дизайн сайта: **WEB-ELITIT.RU: ООО "Кофеско"*
 
 ------------
 

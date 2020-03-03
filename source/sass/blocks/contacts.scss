@@ -1,0 +1,25 @@
+.contacts {
+  display: flex;
+}
+
+.contacts__phone {
+  font-family: $font-default;
+  font-size: 24rem;
+  font-weight: 500;
+  line-height: 24rem;
+  color: #512a18;
+  text-decoration: none;
+  // margin-right: 57rem;
+  max-width: 204rem;
+  width: 100%;
+}
+
+.contacts__mail {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  color: #512a18;
+  text-decoration: none;
+  max-width: 152rem;
+  width: 100%;
+}

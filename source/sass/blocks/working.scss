@@ -1,0 +1,53 @@
+.working {}
+
+.working__wrapper {}
+
+.working__title {
+  color: #512a18;
+  font-family: "Gotham Pro";
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 114rem;
+}
+
+.working__list {
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.working__item {
+  margin-right: 41rem;
+  max-width: 293rem;
+  margin-bottom: 30rem;
+}
+
+.working__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.working__icon {
+  height: 100rem;
+  margin-bottom: 28rem;
+}
+
+.working__name {
+  color: #512a18;
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 22rem;
+}
+
+.working__description {
+  color: #9c897b;
+  font-family: "Gotham Pro";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}

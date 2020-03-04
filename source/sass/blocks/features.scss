@@ -1,0 +1,55 @@
+.features {}
+
+.features__wrapper {
+  padding-bottom: 80rem;
+}
+
+.features__title {
+  color: #512a18;
+  font-family: $font-default;
+  font-size: 36rem;
+  font-weight: 500;
+  line-height: 24rem;
+  margin: 0;
+  margin-bottom: 86rem;
+}
+
+.features__list {
+  @include list-reset;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features__item {
+  max-width: 410rem;
+  margin-right: auto;
+  margin-bottom: 50rem;
+}
+
+.features__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.features__icon {
+  height: 100rem;
+  margin-bottom: 27rem;
+}
+
+.features__name {
+  color: #512a18;
+  font-family: $font-additional;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 22rem;
+}
+
+.features__description {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0;
+}

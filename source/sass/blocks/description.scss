@@ -1,0 +1,26 @@
+.description__list {
+  @include list-reset;
+  display: flex;
+  padding-top: 103rem;
+  margin-bottom: 86rem;
+}
+
+.description__item {
+  margin-right: 57rem;
+  margin-bottom: 30rem;
+  max-width: 607rem;
+}
+
+.description__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+.description__text {
+  color: #512a18;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+  margin-bottom: 20rem;
+}

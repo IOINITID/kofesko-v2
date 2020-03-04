@@ -1,0 +1,56 @@
+.promo {
+  background-color: #efe6d6;
+}
+
+.promo__wrapper {
+  padding-top: 217rem;
+  padding-bottom: 198rem;
+  background-image: url("../../img/promo-quality.png");
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.promo__title {
+  color: #512a18;
+  font-family: $font-additional;
+  font-size: 48rem;
+  font-weight: 700;
+  font-style: italic;
+  line-height: 62rem;
+  margin: 0;
+  margin-bottom: 72rem;
+  max-width: 750rem;
+}
+
+.promo__description {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+}
+
+.promo__link {
+  color: #ffffff;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 500;
+  line-height: 24rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275rem;
+  height: 50rem;
+  border-radius: 25rem;
+  background-color: #ef5e5e;
+  padding: 16rem 18rem;
+  text-decoration: none;
+}
+
+.promo__icon {
+  width: 22rem;
+  height: 19rem;
+  margin-right: 21rem;
+}

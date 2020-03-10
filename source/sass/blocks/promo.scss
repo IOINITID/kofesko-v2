@@ -20,7 +20,6 @@
   background-image: url("../../img/promo-talking.png");
 }
 
-
 .promo__title {
   color: #512a18;
   font-family: $font-additional;
@@ -72,6 +71,12 @@
   width: 22rem;
   height: 19rem;
   margin-right: 21rem;
+}
+
+.promo--talking .promo__icon {
+  width: 20rem;
+  height: 19rem;
+  margin-right: 17rem;
 }
 
 .promo__description {

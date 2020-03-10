@@ -1,0 +1,41 @@
+.delivery__list {
+  @include list-reset;
+}
+
+.delivery__item {
+  display: flex;
+}
+
+.delivery__icon {
+  margin-right: 59rem;
+}
+
+.delivery__icon--pay {
+  min-width: 100rem;
+  width: 100rem;
+  height: 101rem;
+}
+
+.delivery__icon--delivery {
+  min-width: 114rem;
+  width: 114rem;
+  height: 100rem;
+}
+
+.delivery__icon--office {
+  min-width: 88rem;
+  width: 88rem;
+  height: 101rem;
+}
+
+.delivery__icon--post {
+  min-width: 110rem;
+  width: 110rem;
+  height: 71rem;
+}
+
+.delivery__icon--transport {
+  min-width: 114rem;
+  width: 114rem;
+  height: 99rem;
+}

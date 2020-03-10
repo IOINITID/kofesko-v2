@@ -1,0 +1,142 @@
+.review-form {
+  background-color: #efe6d6;
+}
+
+.review-form__wrapper {
+  padding-top: 94rem;
+  // padding-bottom: 40rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.review-form-content {}
+
+.review-form-content--info {
+  min-width: 570rem;
+  width: 570rem;
+  background-image: url("../img/review-form-background.png");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  width: 100%;
+  min-height: 219rem;
+}
+
+.review-form-content--form {
+  min-width: 635rem;
+  width: 635rem;
+  padding-bottom: 40rem;
+}
+
+.review-form__title {
+  max-width: 468rem;
+  color: #512a18;
+  font-family: $font-additional;
+  font-style: italic;
+  font-size: 48rem;
+  line-height: 64rem;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 40rem;
+}
+
+.review-form__description {
+  max-width: 570rem;
+  width: 100%;
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+}
+
+.review-form__fields {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65rem;
+}
+
+.review-form__name,
+.review-form__email {
+  width: 303rem;
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+  background: none;
+  border: none;
+  padding-bottom: 10rem;
+  border-bottom: 1rem solid #cfc0b0;
+}
+
+.review-form__textarea {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 165rem;
+  resize: none;
+  border-bottom: 1rem solid #cfc0b0;
+  margin-bottom: 23rem;
+}
+
+.review-form__check {
+  min-width: 16rem;
+  width: 16rem;
+  height: 16rem;
+  border-radius: 4rem;
+  background-color: #cfc0b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin-right: 24rem;
+  cursor: pointer;
+}
+
+.review-form__check-icon {
+  display: none;
+}
+
+.review-form__ckeckbox:checked+.review-form__check .review-form__check-icon {
+  min-width: 21rem;
+  width: 21rem;
+  height: 16rem;
+  position: absolute;
+  bottom: 4rem;
+  display: flex;
+}
+
+.review-form__agreement {
+  display: flex;
+  margin-bottom: 34rem;
+}
+
+.review-form__agreement-text {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 16rem;
+  margin: 0;
+}
+
+.review-form__button {
+  width: 192rem;
+  height: 50rem;
+  border-radius: 25rem;
+  background-color: #eb936b;
+  margin: 0;
+  border: none;
+  color: #ffffff;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 500;
+  line-height: 24rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

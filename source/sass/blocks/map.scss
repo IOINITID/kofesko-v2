@@ -1,0 +1,37 @@
+.map__wrapper {
+  margin-top: 144rem;
+  margin-bottom: 126rem;
+}
+
+.map__title {
+  color: #512a18;
+  font-family: $font-default;
+  font-size: 36rem;
+  font-weight: 500;
+  line-height: 24rem;
+  margin: 0;
+  margin-bottom: 86rem;
+}
+
+.map__content {
+  position: relative;
+  min-height: 580rem;
+}
+
+.map__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 580rem;
+  object-fit: cover;
+}
+
+.map__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 580rem;
+  object-fit: cover;
+}

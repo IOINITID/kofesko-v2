@@ -4,6 +4,16 @@
 
 Главная страница сайта: 🖥️ https://ioinitid.github.io/kofesko-v2/index.html
 
+Страница о нас: 🖥️ https://ioinitid.github.io/kofesko-v2/about.html
+
+Страница контакты: 🖥️ https://ioinitid.github.io/kofesko-v2/contacts.html
+
+Страница доставка: 🖥️ https://ioinitid.github.io/kofesko-v2/delivery.html
+
+Страница отзывы: 🖥️ https://ioinitid.github.io/kofesko-v2/reviews.html
+
+Страница преимущества: 🖥️ https://ioinitid.github.io/kofesko-v2/wholesalers.html
+
 ------------
 
 **Превью сайта:**

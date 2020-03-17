@@ -10,6 +10,32 @@
   height: 170rem;
 }
 
+.header__contacts {
+  display: flex;
+}
+
+.header__phone {
+  font-family: $font-default;
+  font-size: 24rem;
+  font-weight: 500;
+  line-height: 24rem;
+  color: #512a18;
+  text-decoration: none;
+  max-width: 204rem;
+  width: 100%;
+  margin-right: 57rem;
+}
+
+.header__mail {
+  font-size: 16rem;
+  font-weight: 400;
+  line-height: 24rem;
+  color: #512a18;
+  text-decoration: none;
+  max-width: 152rem;
+  width: 100%;
+}
+
 .header__content {
   display: flex;
   flex-direction: column;

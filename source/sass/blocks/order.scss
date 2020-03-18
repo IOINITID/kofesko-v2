@@ -1,0 +1,108 @@
+.order {
+  max-width: 375rem;
+  width: 1000%;
+  height: 494rem;
+  border-radius: 4rem;
+  background-color: #512a18;
+  padding: 42rem;
+}
+
+.order__title {
+  color: #ffffff;
+  font-family: $font-default;
+  font-size: 12rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+}
+
+.order__total {
+  color: #eb936b;
+  font-family: $font-default;
+  font-size: 18rem;
+  font-weight: 500;
+  line-height: 30rem;
+  display: block;
+  margin-bottom: 31rem;
+}
+
+.order__contacts {
+  color: #ffffff;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 700;
+  line-height: 24rem;
+  margin: 0;
+  margin-bottom: 23rem;
+}
+
+.order__name input {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 24rem;
+  display: flex;
+  background: none;
+  border: none;
+  padding: 10rem;
+  border-bottom: 1rem solid rgba($color: #cfc0b0, $alpha: 0.2) !important;
+  width: 100%;
+}
+
+.order__name input::placeholder {
+  color: #9c897b;
+}
+
+.order__phone input {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 24rem;
+  display: flex;
+  background: none;
+  border: none;
+  padding: 10rem;
+  border-bottom: 1rem solid rgba($color: #cfc0b0, $alpha: 0.2) !important;
+  width: 100%;
+}
+
+.order__phone input::placeholder {
+  color: #9c897b;
+}
+
+.order__mail input {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 24rem;
+  display: flex;
+  background: none;
+  margin-bottom: 60rem;
+  border: none;
+  padding: 10rem;
+  border-bottom: 1rem solid rgba($color: #cfc0b0, $alpha: 0.2) !important;
+  width: 100%;
+}
+
+.order__mail input::placeholder {
+  color: #9c897b;
+}
+
+.order__button {
+  color: #ffffff;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 500;
+  line-height: 24rem;
+  border: none;
+  width: 275rem;
+  height: 50rem;
+  border-radius: 25rem;
+  background-color: #eb936b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

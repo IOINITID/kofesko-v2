@@ -107,3 +107,35 @@
 .header__logo {
   margin-right: auto;
 }
+
+.header__cart {
+  display: flex;
+}
+
+.header__cart-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.header__cart-title {
+  color: #512a18;
+  font-family: $font-default;
+  font-size: 16rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.header__cart-products {
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 14rem;
+  font-weight: 400;
+  margin: 0;
+  text-transform: lowercase;
+}
+
+.header__cart-icon {
+  width: 30rem;
+  height: 34rem;
+  margin-right: 12rem;
+}

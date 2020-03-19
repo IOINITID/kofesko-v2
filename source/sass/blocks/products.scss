@@ -139,6 +139,13 @@
 
 .products__delete-image {}
 
+.product__adress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 664rem;
+}
+
 .product__adress {
   color: #9c897b;
   font-family: $font-default;
@@ -149,6 +156,7 @@
   height: 50rem;
   border-radius: 25rem;
   background: rgba($color: #cfc0b0, $alpha: 0.2);
+  margin-bottom: 40rem;
 }
 
 .product__adress-label {
@@ -190,4 +198,18 @@
   padding: 0 24rem;
   background: none;
   border: none;
+}
+
+.product__adress-textarea {
+  width: 100%;
+  min-height: 115rem;
+  border-radius: 4rem;
+  color: #9c897b;
+  font-family: $font-default;
+  font-size: 14rem;
+  font-weight: 400;
+  line-height: 24rem;
+  background: rgba($color: #cfc0b0, $alpha: 0.2);
+  border: none;
+  padding: 18rem 24rem;
 }

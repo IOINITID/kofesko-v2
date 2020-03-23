@@ -14,6 +14,12 @@
 
 Страница преимущества: 🖥️ https://ioinitid.github.io/kofesko-v2/wholesalers.html
 
+Страница корзина: 🖥️ https://ioinitid.github.io/kofesko-v2/cart.html
+
+Страница адресс: 🖥️ https://ioinitid.github.io/kofesko-v2/address.html
+
+Страница продукт: 🖥️ https://ioinitid.github.io/kofesko-v2/product.html
+
 ------------
 
 **Превью сайта:**

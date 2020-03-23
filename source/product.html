@@ -232,6 +232,7 @@
 
       <section class="item">
         <div class="container">
+
           <div class="item__wrapper">
 
             <div class="item__preview">
@@ -281,71 +282,159 @@
                 <img src="img/icon-rating-none.png" alt="">
               </div>
 
-              <span>Вес:</span>
+              <span class="item__weight">Вес:</span>
 
-              <label for="">
-                <p>200 г</p>
-                <input type="radio" name="" id="">
-                <span></span>
-              </label>
+              <ul class="item__weight-list">
+                <li class="item__weight-item">
+                  <label class="item__weight-label" for="weight-one">
+                    <input type="radio" name="weight" id="weight-one">
+                    <span></span>
+                    <p>200 г</p>
+                  </label>
+                </li>
+                <li class="item__weight-item">
+                  <label class="item__weight-label" for="weight-two">
+                    <input type="radio" name="weight" id="weight-two">
+                    <span></span>
+                    <p>500 г</p>
+                  </label>
+                </li>
+                <li class="item__weight-item">
+                  <label class="item__weight-label" for="weight-three">
+                    <input type="radio" name="weight" id="weight-three">
+                    <span></span>
+                    <p>1000 г</p>
+                  </label>
+                </li>
+              </ul>
 
-              <label for="">
-                <p>500 г</p>
-                <input type="radio" name="" id="">
-                <span></span>
-              </label>
+              <div class="item__select-wrapper">
 
-              <label for="">
-                <p>1000 г</p>
-                <input type="radio" name="" id="">
-                <span></span>
-              </label>
+                <div class="item__select-item">
+                  <p>Степень обжарки:</p>
+                  <label class="item__select-label" for="">
+                    <select name="city" id="city-field">
+                      <option value="Средняя (стандартная)">Средняя (стандартная)</option>
+                      <option value="Средняя (стандартная)">Средняя (стандартная)</option>
+                    </select>
+                    <span>Средняя (стандартная)
+                      <img src="img/icon-arrow-down.png" alt="">
+                    </span>
+                  </label>
+                </div>
 
-              Степень обжарки:
-              Средняя (стандартная)
+                <div class="item__select-item">
+                  <p>Помол:</p>
+                  <label class="item__select-label" for="">
+                    <select name="city" id="city-field">
+                      <option value="В зёрнах (не молоть)">В зёрнах (не молоть)</option>
+                      <option value="В зёрнах (не молоть)">В зёрнах (не молоть)</option>
+                    </select>
+                    <span>В зёрнах (не молоть)
+                      <img src="img/icon-arrow-down.png" alt="">
+                    </span>
+                  </label>
+                </div>
 
-              Помол:
-              В зёрнах (не молоть)
+              </div>
 
-              Количество:
-              99
 
-              Сумма к оплате:
-              276 руб 262 руб
+              <div class="item__total-wrapper">
 
-              Добавить в корзину
+                <div class="item__quabtity-wrapper">
+
+                  <p class="item__quantity-title">Количество:</p>
+
+                  <div class="products__controls">
+
+                    <button class="products__controls-remove" type="button">
+                      <img src="img/icon-minus.png" alt="">
+                    </button>
+
+                    <label for="">
+                      <input class="products__controls-quantity" type="number" name="" id="" placeholder="99">
+                    </label>
+
+                    <button class="products__controls-add" type="button">
+                      <img src="img/icon-plus.png" alt="">
+                    </button>
+
+                  </div>
+
+                </div>
+
+                <div class="item__sum-wrapper">
+                  <p class="item__sum-title">Сумма к оплате:</p>
+                  <p class="item__sum-price"><del>276 руб</del> 262 руб</p>
+                </div>
+
+              </div>
+
+
+
+
+              <a class="item__button" href="#">Добавить в корзину</a>
 
             </div>
 
-            <!-- Описание
+          </div>
 
-            Это достаточно мягкий сорт кофе. Бразилия Сантос – классическая арабика с кисловатыми нотками, в аромате
-            присутствуют деликатные карамельно-ягодные оттенки. Вкус кофе отличается сбалансированностью, с каждым
-            глотком ощущаются шоколадно-ореховые нотки, которые переходят в долгое и пряное пос левкусие темного
-            шоколада. Это один из самых популярных сортов кофе, в котором отсутствуют посторонние примеси. Бразилия
-            Сантос – универсальный напиток, поскольку подходит для любого способа приготовления.
+          <div class="item__description-wrapper">
 
-            Вкусовые качества сорта Бразилия Сантос зависят от возраста кофейных деревьев. Чем они старше – тем
-            характернее и глубже вкус напитка. Кофейные плантации высаживают в высокогорных регионах недалеко от
-            морского побережья, благодаря чему этот сорт отличается своей особенной изысканной кислинкой. Идеальный
-            бразильский климат на протяжении долгого времени не только сохраняет лучшие черты кофейных зерен, но и с
-            каждым годом обогащает их вкус. Бразилия Сантос – это одновременно крепкий и мягкий сорт, вкусовые качества
-            которого по достоинству оценили поклонники кофе во всем мире.
+            <div class="item__description">
 
-            Купить свежеобжаренный кофе Бразилия Сантос от производителя в Москве по низкой цене можно в нашем интернет
-            магазине. Мы с радостью проконсультируем, обжарим и быстро доставим товар.
+              <h3 class="item__description-title">Описание</h3>
 
+              <p>Это достаточно мягкий сорт кофе. Бразилия Сантос – классическая арабика с кисловатыми нотками, в
+                аромате
+                присутствуют деликатные карамельно-ягодные оттенки. Вкус кофе отличается сбалансированностью, с каждым
+                глотком ощущаются шоколадно-ореховые нотки, которые переходят в долгое и пряное пос левкусие темного
+                шоколада. Это один из самых популярных сортов кофе, в котором отсутствуют посторонние примеси. Бразилия
+                Сантос – универсальный напиток, поскольку подходит для любого способа приготовления.
+              </p>
 
-            Способы приготовления:
+              <p>Вкусовые качества сорта Бразилия Сантос зависят от возраста кофейных деревьев. Чем они старше – тем
+                характернее и глубже вкус напитка. Кофейные плантации высаживают в высокогорных регионах недалеко от
+                морского побережья, благодаря чему этот сорт отличается своей особенной изысканной кислинкой. Идеальный
+                бразильский климат на протяжении долгого времени не только сохраняет лучшие черты кофейных зерен, но и с
+                каждым годом обогащает их вкус. Бразилия Сантос – это одновременно крепкий и мягкий сорт, вкусовые
+                качества
+                которого по достоинству оценили поклонники кофе во всем мире.</p>
 
-            Френч-пресс
-            Гейзерная кофеварка
-            Турка
-            Капельная кофеварка -->
+              <p>Купить свежеобжаренный кофе Бразилия Сантос от производителя в Москве по низкой цене можно в нашем
+                интернет
+                магазине. Мы с радостью проконсультируем, обжарим и быстро доставим товар.</p>
 
+            </div>
 
+            <div class="item__process">
+              <p class="item__process-title">Способы приготовления:</p>
+              <ul class="item__process-list">
+                <li class="item__process-item">
+                  <span>
+                    <img src="img/icon-process.svg" alt="">
+                  </span>
+                  Френч-пресс</li>
+                <li class="item__process-item">
+                  <span>
+                    <img src="img/icon-process.svg" alt="">
+                  </span>
+                  Гейзерная кофеварка</li>
+                <li class="item__process-item">
+                  <span>
+                    <img src="img/icon-process.svg" alt="">
+                  </span>
+                  Турка</li>
+                <li class="item__process-item">
+                  <span>
+                    <img src="img/icon-process.svg" alt="">
+                  </span>
+                  Капельная кофеварка</li>
+              </ul>
+            </div>
 
           </div>
+
         </div>
       </section>
 

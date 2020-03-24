@@ -2,6 +2,30 @@
   background: $background-header-default;
 }
 
+.header--wholesalers {
+  background: $background-header-default url("../img/background-wholesalers.jpg");
+}
+
+.header--wholesalers .logo__icon path {
+  fill: #efe6d6;
+}
+
+.header--wholesalers .header__phone {
+  color: #ffffff;
+}
+
+.header--wholesalers .header__mail {
+  color: #efe6d6;
+}
+
+.header--wholesalers .header__bottom .navigation__link {
+  color: #ffffff;
+}
+
+.header--wholesalers .header__cart-title {
+  color: #efe6d6;;
+}
+
 .header__content-wrapper {
   width: 100%;
   display: flex;

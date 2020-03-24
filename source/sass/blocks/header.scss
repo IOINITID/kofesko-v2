@@ -2,12 +2,20 @@
   background: $background-header-default;
 }
 
+.header__content-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 70rem;
+}
+
 .header__wrapper {
   display: flex;
   align-items: center;
   // padding-top: 16rem;
   // padding-bottom: 23rem;
-  height: 170rem;
+  min-height: 170rem;
+  flex-direction: column;
 }
 
 .header__contacts {

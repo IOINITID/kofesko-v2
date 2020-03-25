@@ -1,5 +1,6 @@
 .header {
   background: $background-header-default;
+  min-height: 800px;
 }
 
 .header--wholesalers {
@@ -23,7 +24,22 @@
 }
 
 .header--wholesalers .header__cart-title {
-  color: #efe6d6;;
+  color: #efe6d6;
+}
+
+.header--wholesalers .header__slider {
+  display: flex;
+  flex-direction: column;
+  min-width: 1300px;
+  max-width: 1300px;
+}
+
+.header--wholesalers .header__content-wrapper {
+  margin-bottom: 170rem;
+}
+
+.header--wholesalers .header__wrapper {
+  padding-bottom: 300rem;
 }
 
 .header__content-wrapper {
@@ -40,6 +56,7 @@
   // padding-bottom: 23rem;
   min-height: 170rem;
   flex-direction: column;
+  position: relative;
 }
 
 .header__contacts {

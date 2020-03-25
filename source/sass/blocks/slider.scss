@@ -4,6 +4,11 @@
   justify-content: space-between;
 }
 
+.slider-wholesalers {
+  @include list-reset;
+  display: flex;
+}
+
 .slider__info {
   width: 856rem;
 }
@@ -140,7 +145,34 @@
   text-transform: uppercase;
 }
 
+.slider__info {
+  color: #efe6d6;
+  font-family: $font-default;
+  font-size: 24rem;
+  font-weight: 400;
+  line-height: 24rem;
+  margin: 0;
+  margin-bottom: 27rem;
+}
+
+.slider__name {
+  color: #ffffff;
+  font-family: $font-additional;
+  font-style: italic;
+  font-size: 48rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin: 0;
+}
+
 .slider-header {
+  @include list-reset;
+  // max-width: 1300px;
+  width: 100% !important;
+  display: flex !important;
+}
+
+.slider-wholesalers {
   @include list-reset;
   // max-width: 1300px;
   width: 100% !important;
@@ -157,13 +189,97 @@
 }
 
 .slick-slide {
-  min-width: 1300px !important;
-  max-width: 1300px !important;
+  min-width: 1300rem !important;
+  max-width: 1300rem !important;
   display: flex !important;
 }
 
-.slider-header .slick-dots {
-  bottom: 50px;
-  right: 400px;
+.slider-header .slick-dots,
+.slider-wholesalers .slick-dots {
+  bottom: 50rem;
+  right: 400rem;
   width: auto;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 16rem;
+  height: 16rem;
+  padding: 0;
+  cursor: pointer;
+  color: transparent;
+  outline: none;
+  border: 1rem solid #cfc0b0;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+.slick-dots li button::before {
+  font-family: 'slick';
+  font-size: 10rem;
+  line-height: 18rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  height: 16rem;
+  content: '•';
+  text-align: center;
+  opacity: 1;
+  color: transparent;
+}
+
+.slick-dots li.slick-active button::before {
+  font-family: 'slick';
+  font-size: 10rem;
+  line-height: 18rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16rem;
+  height: 16rem;
+  content: '•';
+  text-align: center;
+  opacity: 1;
+  color: #9c897b;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.controls {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider__controls-prev {
+  position: absolute;
+  left: -50rem;
+}
+
+.slider__controls-prev img {
+  width: 21rem;
+  height: 40rem;
+}
+
+.slider__controls-next.slick-arrow {
+  position: absolute;
+  right: -50rem;
+}
+
+.slider__controls-next {
+  position: absolute;
+  right: -50rem;
+}
+
+.slider__controls-next img {
+  width: 21rem;
+  height: 40rem;
+  transform: rotate(180deg);
 }

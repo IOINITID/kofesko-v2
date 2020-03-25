@@ -1,6 +1,6 @@
 .social {
-// max-width: 95rem;
-// width: 95rem;
+  // max-width: 95rem;
+  // width: 95rem;
 }
 
 .social__list {
@@ -9,11 +9,33 @@
 }
 
 .social__item {
-margin-right: 13rem;
+  margin-right: 13rem;
 }
 
 .social__item:last-child {
   margin-right: 0;
 }
 
+.social__icon:hover .icon-background {
+  fill: #efe6d6;
+}
 
+.social__icon:hover .icon-border {
+  stroke: #cfc0b0;
+}
+
+.social__icon:hover .icon-item {
+  fill: #9c897b;
+}
+
+.social__icon:hover .icon-background--special {
+  fill: #ffffff;
+}
+
+.social__icon:hover .icon-border--special {
+  stroke: #cfc0b0;
+}
+
+.social__icon:hover .icon-item--special {
+  fill: #512a18;
+}

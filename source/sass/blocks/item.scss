@@ -104,6 +104,8 @@
   font-weight: 500;
   line-height: 24rem;
   margin: 0;
+  margin-bottom: 23rem;
+  display: block;
 }
 
 .item__weight-list {
@@ -238,7 +240,7 @@
 }
 
 .item__sum-wrapper {
-  margin-bottom: 90rem;
+  margin-bottom: 80rem;
 }
 
 .item__sum-title {
@@ -248,6 +250,7 @@
   font-weight: 500;
   line-height: 24rem;
   margin: 0;
+  margin-bottom: 29rem;
 }
 
 .item__sum-price {
@@ -257,11 +260,11 @@
   line-height: 24rem;
   font-weight: 700;
   color: #ef5e5e;
+  margin: 0;
 }
 
 .item__sum-price del {
   font-size: 14rem;
-  font-size: 24rem;
   text-decoration: line-through;
   color: #9c897b;
   font-weight: 400;
@@ -281,6 +284,10 @@
   justify-content: center;
   border-radius: 25rem;
   background-color: #eb936b;
+}
+
+.item__button:hover {
+  background-color: #ff7232;
 }
 
 .item__description-wrapper {

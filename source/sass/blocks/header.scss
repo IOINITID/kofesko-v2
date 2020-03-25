@@ -3,6 +3,15 @@
   min-height: 800px;
 }
 
+.header--inner {
+  min-height: unset;
+  height: auto;
+}
+
+.header--inner .header__content-wrapper {
+  margin: 0;
+}
+
 .header--wholesalers {
   background: $background-header-default url("../img/background-wholesalers.jpg");
 }

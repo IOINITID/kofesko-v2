@@ -25,6 +25,10 @@
   font-weight: 400;
 }
 
+.search__field::placeholder {
+  color: #9c897b;
+}
+
 .search__icon {
   position: absolute;
   top: 16rem;

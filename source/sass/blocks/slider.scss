@@ -145,6 +145,12 @@
   text-transform: uppercase;
 }
 
+.slider__link:hover {
+  background: #eb936b;
+  color: #ffffff;
+  border-color: #eb936b;
+}
+
 .slider__info {
   color: #efe6d6;
   font-family: $font-default;

@@ -80,3 +80,9 @@
 .navigation__list--inner .navigation__item:last-child .navigation__link {
   border-radius: 0 0 8rem 8rem;
 }
+
+.navigation__link-icon {
+  min-width: 18rem;
+  max-width: 18rem;
+  height: 18rem;
+}

@@ -39,3 +39,9 @@
 .social__icon:hover .icon-item--special {
   fill: #512a18;
 }
+
+.social__icon {
+  min-width: 41rem;
+  max-width: 41rem;
+  height: 40rem;
+}

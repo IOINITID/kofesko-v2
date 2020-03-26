@@ -59,3 +59,15 @@ var onDOMLoading = function () {
 };
 
 document.addEventListener('DOMContentLoaded', onDOMLoading);
+
+// Нажатие на превью изображения товара
+var imagePreview = document.querySelector('.item__image');
+var imagePreviewList = document.querySelectorAll('.item__image-item');
+
+imagePreviewList.forEach(function (item) {
+  item.addEventListener('click', function (evt) {
+    evt.preventDefault();
+    var itemImage = item.querySelector('.item__image--small');
+    imagePreview.src = itemImage.src;
+  });
+});

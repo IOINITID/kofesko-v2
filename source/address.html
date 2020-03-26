@@ -248,94 +248,94 @@
           <div class="cart__wrapper">
             <h2 class="cart__title">Корзина</h2>
 
-            <ul class="cart__stages-list">
-              <li class="cart__stages-item">
-                <a class="cart__stages-link" href="#">Ваш заказ</a>
-              </li>
-              <li class="cart__stages-item cart__stages-item--active">
-                <a class="cart__stages-link" href="#">Адрес доставки</a>
-              </li>
-              <li class="cart__stages-item">
-                <a class="cart__stages-link" href="#">Проверка и оплата</a>
-              </li>
-            </ul>
+            <div class="cart__form-wrapper">
 
-            <form class="cart__form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
+              <form class="cart__form" action="https://echo.htmlacademy.ru" method="POST" autocomplete="off">
 
-              <div class="cart__products products">
+                <ul class="cart__stages-list">
+                  <li class="cart__stages-item">
+                    <a class="cart__stages-link" href="#">Ваш заказ</a>
+                  </li>
+                  <li class="cart__stages-item cart__stages-item--active">
+                    <a class="cart__stages-link" href="#">Адрес доставки</a>
+                  </li>
+                  <li class="cart__stages-item">
+                    <a class="cart__stages-link" href="#">Проверка и оплата</a>
+                  </li>
+                </ul>
 
-                <div class="product__adress-wrapper">
+                <div class="cart__products products">
 
-                  <div class="product__adress product__adress--city">
+                  <div class="product__adress-wrapper">
 
-                    <label class="product__adress-label" for="city-field">
-                      <select name="city" id="city-field">
-                        <option value="Регион один">Регион один</option>
-                        <option value="Регион два">Регион два</option>
-                      </select>
-                      <span>Регион
-                        <img src="img/icon-arrow-down.png" alt="">
-                      </span>
-                    </label>
+                    <div class="product__adress product__adress--city">
+
+                      <label class="product__adress-label" for="city-field">
+                        <select name="city" id="city-field">
+                          <option value="Регион один">Регион один</option>
+                          <option value="Регион два">Регион два</option>
+                        </select>
+                        <span>Регион
+                          <img src="img/icon-arrow-down.png" alt="">
+                        </span>
+                      </label>
+
+                    </div>
+
+                    <div class="product__adress product__adress--street">
+
+                      <label class="product__adress-label" for="city-field">
+                        <input type="text" name="street" id="street-field" placeholder="Улица">
+                      </label>
+
+                    </div>
+
+                    <div class="product__adress product__adress--city">
+
+                      <label class="product__adress-label" for="city-field">
+                        <select name="city" id="city-field">
+                          <option value="Город один">Город один</option>
+                          <option value="Город два">Город два</option>
+                        </select>
+                        <span>Город
+                          <img src="img/icon-arrow-down.png" alt="">
+                        </span>
+                      </label>
+
+                    </div>
+
+                    <div class="product__adress product__adress--street">
+
+                      <label class="product__adress-label" for="city-field">
+                        <input type="text" name="street" id="street-field" placeholder="Дом">
+                      </label>
+
+                    </div>
+
+                    <div class="product__adress product__adress--street">
+
+                      <label class="product__adress-label" for="city-field">
+                        <input type="text" name="street" id="street-field" placeholder="Индекс">
+                      </label>
+
+                    </div>
+
+                    <div class="product__adress product__adress--street">
+
+                      <label class="product__adress-label" for="city-field">
+                        <input type="text" name="street" id="street-field" placeholder="Квартира">
+                      </label>
+
+                    </div>
 
                   </div>
 
-                  <div class="product__adress product__adress--street">
-
-                    <label class="product__adress-label" for="city-field">
-                      <input type="text" name="street" id="street-field" placeholder="Улица">
-                    </label>
-
-                  </div>
-
-                  <div class="product__adress product__adress--city">
-
-                    <label class="product__adress-label" for="city-field">
-                      <select name="city" id="city-field">
-                        <option value="Город один">Город один</option>
-                        <option value="Город два">Город два</option>
-                      </select>
-                      <span>Город
-                        <img src="img/icon-arrow-down.png" alt="">
-                      </span>
-                    </label>
-
-                  </div>
-
-                  <div class="product__adress product__adress--street">
-
-                    <label class="product__adress-label" for="city-field">
-                      <input type="text" name="street" id="street-field" placeholder="Дом">
-                    </label>
-
-                  </div>
-
-                  <div class="product__adress product__adress--street">
-
-                    <label class="product__adress-label" for="city-field">
-                      <input type="text" name="street" id="street-field" placeholder="Индекс">
-                    </label>
-
-                  </div>
-
-                  <div class="product__adress product__adress--street">
-
-                    <label class="product__adress-label" for="city-field">
-                      <input type="text" name="street" id="street-field" placeholder="Квартира">
-                    </label>
-
-                  </div>
+                  <textarea class="product__adress-textarea" name="" id=""
+                    placeholder="Комментарий к заказу..."></textarea>
 
                 </div>
 
-
-
-                <textarea class="product__adress-textarea" name="" id=""
-                  placeholder="Комментарий к заказу..."></textarea>
-
-
-
-              </div>
+              </form>
 
               <div class="cart__order order">
                 <p class="order__title">Сумма к оплате:</p>
@@ -353,7 +353,7 @@
                 <button class="order__button" type="submit">Продолжить</button>
               </div>
 
-            </form>
+            </div>
 
             <p class="cart__agreement">Нажимая кнопку Продолжить Вы соглашаетесь с Пользовательским соглашением и даете
               согласие

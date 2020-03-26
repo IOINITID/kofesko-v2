@@ -58,7 +58,7 @@
 }
 
 .cart__agreement {
-  max-width: 857rem;
+  max-width: 822rem;
   width: 100%;
   color: #9c897b;
   font-family: $font-default;
@@ -75,6 +75,7 @@
 
 .cart__form {
   display: flex;
+  flex-direction: column;
   margin-bottom: 74rem;
 }
 
@@ -86,6 +87,7 @@
   background: rgba($color: #ef5e5e, $alpha: 0.7);
   padding: 15rem;
   margin-bottom: 38rem;
+  display: none;
 }
 
 .cart__info-text {
@@ -104,4 +106,9 @@
   font-weight: 500;
   line-height: 24rem;
   text-decoration: none;
+}
+
+.cart__form-wrapper {
+  display: flex;
+  justify-content: space-between;
 }

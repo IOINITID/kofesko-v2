@@ -17,6 +17,10 @@
   margin-bottom: 34rem;
 }
 
+.products__item:last-child {
+  margin-bottom: 0;
+}
+
 .products__image-wrapper {
   width: 100rem;
   height: 98rem;
@@ -203,6 +207,7 @@
 }
 
 .product__adress-textarea {
+  max-width: 664rem;
   width: 100%;
   min-height: 115rem;
   border-radius: 4rem;

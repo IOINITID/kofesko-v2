@@ -42,7 +42,7 @@
 
 .item__image {
   width: 356rem;
-  height: 412rem;
+  height: 411rem;
 }
 
 .item__image-list {
@@ -368,4 +368,10 @@
   align-items: center;
   justify-content: center;
   margin-right: 25rem;
+}
+
+.item__process-item span img {
+  min-width: 19rem;
+  max-width: 19rem;
+  height: 25rem;
 }

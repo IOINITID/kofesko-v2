@@ -77,6 +77,8 @@ var MIN_ORDER_VALUE = 1500;
 var orderTotal = document.querySelector('.order__total-value');
 var cartInfo = document.querySelector('.cart__info');
 
-if (parseInt(orderTotal.textContent, 10) < MIN_ORDER_VALUE) {
-  cartInfo.style.display = 'flex';
+if (orderTotal && cartInfo) {
+  if (parseInt(orderTotal.textContent, 10) < MIN_ORDER_VALUE) {
+    cartInfo.style.display = 'flex';
+  }
 }

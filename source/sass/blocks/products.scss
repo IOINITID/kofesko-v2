@@ -31,7 +31,9 @@
 }
 
 .products__image {
-
+  min-width: 50rem;
+  max-width: 50rem;
+  height: 85rem;
 }
 
 .products__description {
@@ -142,8 +144,6 @@
   align-items: center;
   justify-content: center;
 }
-
-.products__delete-image {}
 
 .product__adress-wrapper {
   display: flex;
